@@ -6,7 +6,10 @@ export const styles = StyleSheet.create({
   },
   headerContainer: {
     padding: 10,
-    backgroundColor: "white",
+    backgroundColor: "#f8f9fa",
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 25,
   },
   headerText: {
     fontSize: 20,

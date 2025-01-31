@@ -15,7 +15,7 @@ const StackNavigator = () => {
       <Stack.Screen
         name="User-Detail"
         component={UserDetails}
-        options={{ headerShown: false }}
+        // options={{ headerShown: false }}
       />
     </Stack.Navigator>
   );

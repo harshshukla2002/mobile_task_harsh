@@ -8,12 +8,12 @@ const DrawerNavigation = () => {
   return (
     <Drawer.Navigator>
       <Drawer.Screen
-        name="Main-Bottom"
+        name="Main-Screen"
         component={BottomTabs}
         options={{ headerShown: false }}
       />
       <Drawer.Screen
-        name="User"
+        name="User-Screen"
         component={StackNavigator}
         options={{ headerShown: false }}
       />

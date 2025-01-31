@@ -5,17 +5,21 @@ import Feather from "react-native-vector-icons/Feather";
 
 import { styles } from "./style";
 
-const Home = () => {
+const Home = ({ navigation }: any) => {
   const randomCoordinates = [
     { latitude: 12.9716, longitude: 77.5946 },
-    { latitude: 37.7749, longitude: -122.4194 },
-    { latitude: 40.7128, longitude: -74.006 },
+    { latitude: 17.4065, longitude: 78.4772 },
+    { latitude: 24.5362, longitude: 81.3037 },
   ];
 
   return (
     <View style={styles.container}>
       <View style={styles.headerContainer}>
-        <Feather name="menu" size={30} />
+        <Feather
+          name="menu"
+          size={30}
+          onPress={() => navigation.openDrawer()}
+        />
         <Text style={styles.headerText}>Home Screen</Text>
       </View>
       <MapView style={styles.map}>

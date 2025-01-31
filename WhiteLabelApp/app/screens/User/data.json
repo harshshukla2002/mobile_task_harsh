@@ -1,0 +1,12 @@
+{
+  "users": [
+    { "userId": 1, "name": "Test User 01", "email": "testuser01@gmail.com" },
+    { "userId": 2, "name": "Test User 02", "email": "testuser02@gmail.com" },
+    { "userId": 3, "name": "Test User 03", "email": "testuser03@gmail.com" },
+    { "userId": 4, "name": "Test User 04", "email": "testuser04@gmail.com" },
+    { "userId": 5, "name": "Test User 05", "email": "testuser05@gmail.com" },
+    { "userId": 6, "name": "Test User 06", "email": "testuser06@gmail.com" },
+    { "userId": 7, "name": "Test User 07", "email": "testuser07@gmail.com" },
+    { "userId": 8, "name": "Test User 08", "email": "testuser08@gmail.com" }
+  ]
+}
