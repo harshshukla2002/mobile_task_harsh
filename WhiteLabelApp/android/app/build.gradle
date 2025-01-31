@@ -88,7 +88,7 @@ android {
 
     namespace 'com.harsh_shukla_02.WhiteLabelApp'
     defaultConfig {
-        applicationId 'com.harsh_shukla_02.WhiteLabelApp'
+        applicationId project.hasProperty("BUNDLE_ID") ? project.BUNDLE_ID : 'com.harsh_shukla_02.WhiteLabelApp'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
