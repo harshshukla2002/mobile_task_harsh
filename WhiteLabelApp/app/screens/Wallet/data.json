@@ -1,0 +1,14 @@
+{
+  "branding": {
+    "brandA": {
+      "appName": "Brand A",
+      "logo": "https://cdn.logojoy.com/wp-content/uploads/20220329171721/social-media-app-logo-pinterest.jpg",
+      "primaryColor": "#FF5733"
+    },
+    "brandB": {
+      "appName": "Brand B",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/App_Store_%28iOS%29.svg/512px-App_Store_%28iOS%29.svg.png",
+      "primaryColor": "#3498DB"
+    }
+  }
+}

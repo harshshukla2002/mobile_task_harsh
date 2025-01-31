@@ -1,0 +1,10 @@
+{
+  "build": {
+    "brandA": {
+      "env": { "APP_NAME": "Brand A", "BUNDLE_ID": "com.brandA.app" }
+    },
+    "brandB": {
+      "env": { "APP_NAME": "Brand B", "BUNDLE_ID": "com.brandB.app" }
+    }
+  }
+}
