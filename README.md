@@ -34,7 +34,5 @@
 
 ## Demo
 
-<video width="600" controls>
-  <source src="./Assets/video1336060761.mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/e0eaedcf-63f3-441d-b96a-c962a45303f2
+
