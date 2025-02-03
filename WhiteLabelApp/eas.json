@@ -5,6 +5,15 @@
     },
     "brandB": {
       "env": { "APP_NAME": "Brand B", "BUNDLE_ID": "com.brandB.app" }
+    },
+    "production": {
+      "distribution": "store",
+      "android": {
+        "gradleCommand": ":app:assembleRelease"
+      },
+      "ios": {
+        "simulator": false
+      }
     }
   }
 }
